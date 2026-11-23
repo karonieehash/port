@@ -1,0 +1,33 @@
+/* Design tokens and theme variables */
+:root {
+  color-scheme: dark;
+  --bg: #10151b;
+  --bg2: #151c23;
+  --card: #192128;
+  --ink: #edece5;
+  --muted: #9ca9ab;
+  --line: #303a40;
+  --accent: #d5f58a;
+  --accent-ink: #172313;
+  --soft: #202c24;
+  --coral: #f8b39e;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Arial, sans-serif;
+  --mono: 'Courier New', monospace;
+  --max: 1260px;
+  --radius: 16px;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f4f3ed;
+  --bg2: #eaece4;
+  --card: #fffef8;
+  --ink: #18231e;
+  --muted: #56665b;
+  --line: #cbd1c4;
+  --accent: #436020;
+  --accent-ink: #fff;
+  --soft: #e0e9d6;
+  --coral: #9f503b;
+}

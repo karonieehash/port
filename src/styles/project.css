@@ -1,0 +1,151 @@
+/* Field project styles */
+.project-panel {
+  display: grid;
+  grid-template-columns: 1.08fr 1fr;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--bg2);
+}
+
+.project-art {
+  position: relative;
+  background: #1b2928;
+  min-height: 420px;
+  overflow: hidden;
+}
+
+.project-art > svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-art .art-label {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  color: #b0c1b1;
+  font: 9px var(--mono);
+  letter-spacing: 1.5px;
+}
+
+.art-footer {
+  position: absolute;
+  bottom: 29px;
+  left: 29px;
+  right: 29px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  color: #e9eedf;
+  gap: 20px;
+}
+
+.art-footer strong {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.art-footer span {
+  font: 9px var(--mono);
+  color: #a6b9ac;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.project-copy {
+  padding: 39px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-copy h3 {
+  font-size: 30px;
+  font-family: var(--serif);
+  font-weight: 400;
+  margin: 19px 0 14px;
+  line-height: 1.2;
+}
+
+.project-copy > p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--muted);
+  margin: 0 0 23px;
+}
+
+.project-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 12px;
+  margin-bottom: 27px;
+}
+
+.project-facts div {
+  border-top: 1px solid var(--line);
+  padding-top: 11px;
+}
+
+.project-facts dt {
+  font: 9px var(--mono);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-facts dd {
+  font-size: 12px;
+  margin: 6px 0 0;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.research-stages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 27px;
+  margin-top: 27px;
+}
+
+.research-stage {
+  position: relative;
+  border-top: 1px solid var(--line);
+  padding: 20px 0 0;
+}
+
+.research-stage > span {
+  font: 10px var(--mono);
+  color: var(--accent);
+}
+
+.research-stage h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.research-stage p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.stage-mark {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font: 9px var(--mono);
+  letter-spacing: 1px;
+  color: var(--muted);
+}

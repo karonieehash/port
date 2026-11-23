@@ -1,0 +1,121 @@
+/* Course map styles */
+.course-grid {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 70px;
+}
+
+.module-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.module-tab {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 18px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: none;
+  padding: 21px 5px;
+  color: var(--muted);
+}
+
+.module-tab:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.module-tab .module-number {
+  font: 11px var(--mono);
+  letter-spacing: 1px;
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.module-tab strong {
+  display: block;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  flex: 1;
+}
+
+.module-tab .icon {
+  opacity: 0;
+  transition: transform .2s, opacity .2s;
+}
+
+.module-tab:hover,
+.module-tab[aria-selected="true"] {
+  color: var(--ink);
+}
+
+.module-tab[aria-selected="true"] .module-number,
+.module-tab[aria-selected="true"] .icon {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.module-tab:hover .icon {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+.module-tab[aria-selected="true"] {
+  background: linear-gradient(90deg, var(--soft), transparent);
+  padding-left: 16px;
+}
+
+.module-detail {
+  min-height: 340px;
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 30px 34px;
+  overflow: hidden;
+  background: var(--bg2);
+}
+
+.module-art {
+  height: 106px;
+  width: 100%;
+  margin: 0 0 13px;
+  display: block;
+}
+
+.module-detail .eyebrow {
+  color: var(--accent);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+
+.module-detail h3 {
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 10px 0 14px;
+  max-width: 400px;
+}
+
+.module-detail p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 18px;
+  max-width: 385px;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.tag {
+  border: 1px solid var(--line);
+  font-size: 10px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: var(--muted);
+}

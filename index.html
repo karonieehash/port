@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10151b">
+<meta name="description" content="Deepak · 2633115. A Digital Humanities learning portfolio for ENG101-2B, BA English, Semester II, 2026–27. Readings, field research, and a growing digital archive.">
+<title>Deepak — Digital Humanities Portfolio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23d5f58a'/%3E%3Cpath d='M20 16h10c24 0 24 32 0 32H20Z' fill='none' stroke='%2310151b' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol><symbol id="i-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol><symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol><symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5C9 3 5 3 2 4v15c4-1 7 0 10 2 3-2 6-3 10-2V4c-3-1-7-1-10 1Zm0 0v16"/></symbol><symbol id="i-edit" viewBox="0 0 24 24"><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14l-1 7ZM13 21h8"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol><symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6Zm6-3v15m6-12v15"/></symbol><symbol id="i-notes" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v6h5M8 13h8m-8 4h6"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 4H3v13h5l4 4 4-4h5V4ZM7 8h10M7 12h7"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 13a9 9 0 0 1-10-10 9 9 0 1 0 10 10Z"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol><symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Zm-4 9 3 3 5-6"/></symbol><symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1"/><path d="m3 17 6-6 4 4 3-3 5 5"/></symbol><symbol id="i-link" viewBox="0 0 24 24"><path d="m10 14 4-4m-7 7-1 1a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 10a4 4 0 0 0 6 0l5-5a4 4 0 0 0-6-6l-1 1" transform="translate(1 0) scale(.9)"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.1"/></symbol><symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 19V5m-5 5 5-5 5 5M4 20h16"/></symbol>
+</defs></svg>
+<header class="topbar">
+ <div class="wrap nav-inner">
+  <a class="brand" href="#home" aria-label="Deepak portfolio home"><span class="brand-symbol">d.</span><span><span class="brand-name">DEEPAK</span><span class="brand-caption" style="display:block">DIGITAL HUMANITIES</span></span></a>
+  <nav class="desktop-nav" aria-label="Main navigation"><a class="active" href="#home">Overview</a><a href="#readings">Coursework</a><a href="#project">Field project</a><a href="#archive">Archive</a></nav>
+  <div class="nav-actions"><button class="icon-btn" id="theme-toggle" aria-label="Switch to light theme" title="Change theme"><svg class="icon"><use href="#i-sun"/></svg></button><button class="btn small nav-edit" data-action="editor" title="Edit portfolio"><span class="edit-label">Edit portfolio</span> <svg class="icon sm"><use href="#i-edit"/></svg></button><button class="icon-btn mobile-toggle" id="mobile-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><svg class="icon"><use href="#i-menu"/></svg></button></div>
+ </div><nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation"><a href="#home">Overview</a><a href="#course">Course map</a><a href="#readings">Coursework</a><a href="#project">Field project</a><a href="#archive">Archive</a><a href="#milestones">Milestones</a></nav><div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+</header>
+<main id="main">
+ <section class="hero wrap" id="home" aria-labelledby="hero-heading">
+  <div class="hero-meta"><span class="eyebrow"><span class="dot"></span> A DIGITAL HUMANITIES PORTFOLIO</span><span class="eyebrow">ENG101-2B <span style="margin:0 10px;color:var(--line)">/</span> 2026—27</span></div>
+  <div class="hero-grid">
+   <div class="hero-copy"><h1 id="hero-heading">Human stories.<br><em>Digital</em><br>possibilities.</h1><p class="hero-desc">A space for close reading, thoughtful questions, and exploring the connections between people, culture, and technology.</p><div class="hero-cta"><a class="btn primary" href="#readings">Explore coursework <svg class="icon sm"><use href="#i-arrow"/></svg></a><a class="link-btn" href="#project">The field project <svg class="icon sm"><use href="#i-up-right"/></svg></a></div><div class="hero-owner"><div class="avatar" aria-hidden="true">D</div><div><strong>Deepak <span style="margin:0 6px">/</span> <span style="color:var(--ink);font-size:12px">2633115</span></strong><span>BA ENGLISH · SEMESTER II</span></div></div></div>
+   <div class="hero-art" id="hero-art"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none" role="img" aria-labelledby="hda-title hda-desc">
+  <title id="hda-title">An atlas of human stories</title>
+  <desc id="hda-desc">An open book rests inside gently moving contours. Four connected points named Text, Human, Place and Future connect the study of people and culture with the digital world.</desc>
+  <defs>
+    <radialGradient id="hda-halo"><stop stop-color="var(--accent)" stop-opacity=".075"/><stop offset=".68" stop-color="var(--accent)" stop-opacity=".018"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></radialGradient>
+    <linearGradient id="hda-paper" x1="215" y1="231" x2="376" y2="371" gradientUnits="userSpaceOnUse"><stop stop-color="var(--ink)" stop-opacity=".055"/><stop offset="1" stop-color="var(--ink)" stop-opacity=".012"/></linearGradient>
+    <linearGradient id="hda-contour" x1="145" y1="105" x2="473" y2="488" gradientUnits="userSpaceOnUse"><stop stop-color="var(--muted)" stop-opacity=".07"/><stop offset=".43" stop-color="var(--muted)" stop-opacity=".48"/><stop offset="1" stop-color="var(--muted)" stop-opacity=".1"/></linearGradient>
+    <style>
+      .hda-orbit{transform-origin:300px 300px;animation:hda-turn 100s linear infinite}
+      .hda-reverse{transform-origin:300px 300px;animation:hda-turn 140s linear infinite reverse}
+      .hda-flow{stroke-dasharray:4 11;animation:hda-flow 22s linear infinite}
+      .hda-breathe{animation:hda-breathe 6s ease-in-out infinite}
+      .hda-breathe-late{animation:hda-breathe 6s ease-in-out -3s infinite}
+      .hda-caption{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;fill:var(--ink)}
+      .hda-micro{font-family:Arial,Helvetica,sans-serif;font-size:9px;letter-spacing:1.3px;fill:var(--muted)}
+      @keyframes hda-turn{to{transform:rotate(360deg)}}
+      @keyframes hda-flow{to{stroke-dashoffset:-180}}
+      @keyframes hda-breathe{0%,100%{opacity:.45}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.hda-orbit,.hda-reverse,.hda-flow,.hda-breathe,.hda-breathe-late{animation:none!important}}
+    </style>
+  </defs>
+  <circle cx="300" cy="300" r="257" fill="url(#hda-halo)"/>
+  <g stroke="var(--muted)" stroke-width="1">
+    <circle cx="300" cy="300" r="242" opacity=".15"/>
+    <circle cx="300" cy="300" r="232" opacity=".11"/>
+    <path d="M300 42v16M300 542v16M42 300h16M542 300h16" opacity=".65"/>
+    <path d="M300 68v10m0 444v10M68 300h10m444 0h10M184 99l5 9m222 384 5 9M99 184l9 5m384 222 9 5M68 238l10 3m444 118 10 3M68 362l10-3m444-118 10-3M99 416l9-5m384-222 9-5M184 501l5-9m222-384 5-9M238 532l3-10m118-444 3-10M362 532l-3-10M241 78l-3-10" opacity=".32"/>
+    <path d="M129 129l8 8m326 326 8 8M129 471l8-8m326-326 8-8" opacity=".5"/>
+    <path d="M300 84v53m0 326v53M84 300h53m326 0h53" stroke-dasharray="2 8" opacity=".19"/>
+  </g>
+  <text x="300" y="32" text-anchor="middle" class="hda-micro">A HUMANITIES ATLAS</text>
+  <text x="300" y="579" text-anchor="middle" class="hda-micro">READ · TRACE · CONNECT</text>
+  <text x="38" y="308" text-anchor="middle" transform="rotate(-90 38 308)" class="hda-micro">CULTURE / MEMORY</text>
+  <text x="564" y="300" text-anchor="middle" transform="rotate(90 564 300)" class="hda-micro">HUMAN / DIGITAL</text>
+  <g stroke="url(#hda-contour)" stroke-width="1.05">
+    <path d="M278 93C365 69 444 128 473 193C510 276 477 310 465 379C454 445 381 497 305 503C224 509 182 458 140 410C93 356 101 301 112 239C126 166 203 113 278 93Z"/>
+    <path d="M280 107C359 84 431 140 459 201C492 276 464 313 451 376C437 438 375 481 305 489C231 494 190 448 153 401C112 352 115 301 126 243C138 175 210 126 280 107Z"/>
+    <path d="M281 122C355 102 418 151 444 209C474 277 451 314 436 372C422 426 369 466 305 474C237 480 201 436 167 391C129 346 130 301 140 247C152 185 217 139 281 122Z"/>
+    <path d="M283 137C350 118 405 163 429 217C455 278 437 315 422 367C406 418 363 452 306 459C244 466 212 423 181 382C146 342 145 300 155 251C165 195 223 153 283 137Z"/>
+    <path d="M286 153C343 137 394 178 414 226C438 280 422 318 408 361C394 406 356 439 307 444C251 451 223 411 196 374C165 336 160 299 170 255C179 207 231 168 286 153Z"/>
+    <path d="M289 169C339 155 382 191 399 235C420 282 409 317 394 355C380 395 350 424 308 429C260 435 235 399 211 364C184 331 176 299 186 260C194 218 241 182 289 169Z"/>
+    <path d="M291 185C335 175 369 205 384 243C402 284 392 315 380 350C367 384 342 409 309 413C269 419 246 386 226 354C202 324 193 299 202 265C210 230 250 195 291 185Z"/>
+  </g>
+  <g class="hda-orbit" stroke="var(--accent)" stroke-width="1.15">
+    <path d="M142 161A210 210 0 0 1 285 91" opacity=".6"/>
+    <path d="M466 429A210 210 0 0 1 359 502" opacity=".45"/>
+    <circle cx="285" cy="91" r="3" fill="var(--accent)" stroke="none"/>
+    <circle cx="359" cy="502" r="2.4" fill="var(--accent)" stroke="none"/>
+  </g>
+  <g class="hda-reverse" stroke="var(--muted)" stroke-width="1">
+    <path d="M110 312A190 190 0 0 0 241 481" opacity=".42"/>
+    <path d="M380 128A190 190 0 0 1 490 300" opacity=".35"/>
+    <circle cx="110" cy="312" r="3" fill="var(--bg)"/>
+    <circle cx="490" cy="300" r="3" fill="var(--bg)"/>
+  </g>
+  <g stroke="var(--muted)" stroke-width="1">
+    <path d="M156 147C198 177 200 219 231 250M443 156C408 188 403 222 372 253M153 440C206 419 208 381 235 353M445 439C400 415 398 379 368 351" opacity=".4"/>
+    <path d="M156 147C198 177 200 219 231 250M443 156C408 188 403 222 372 253M153 440C206 419 208 381 235 353M445 439C400 415 398 379 368 351" class="hda-flow" stroke="var(--accent)" opacity=".35"/>
+  </g>
+  <g>
+    <circle cx="156" cy="147" r="22" fill="var(--bg)" stroke="var(--muted)" stroke-opacity=".5"/>
+    <path d="M149 139h13M149 144h13M149 149h8M149 154h10" stroke="var(--ink)" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="124" y="145" text-anchor="end" class="hda-caption">TEXT</text>
+    <text x="124" y="161" text-anchor="end" class="hda-micro">01</text>
+    <circle cx="443" cy="156" r="22" fill="var(--bg)" stroke="var(--muted)" stroke-opacity=".5"/>
+    <circle cx="443" cy="151" r="4" stroke="var(--ink)" stroke-width="1.2"/>
+    <path d="M435 165c0-7 16-7 16 0" stroke="var(--ink)" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="475" y="154" class="hda-caption">HUMAN</text>
+    <text x="475" y="170" class="hda-micro">02</text>
+    <circle cx="153" cy="440" r="22" fill="var(--bg)" stroke="var(--muted)" stroke-opacity=".5"/>
+    <path d="M160 437c0 5-7 12-7 12s-7-7-7-12a7 7 0 0 1 14 0Z" stroke="var(--ink)" stroke-width="1.2"/>
+    <circle cx="153" cy="437" r="2" stroke="var(--ink)" stroke-width="1.2"/>
+    <text x="121" y="439" text-anchor="end" class="hda-caption">PLACE</text>
+    <text x="121" y="455" text-anchor="end" class="hda-micro">03</text>
+    <circle cx="445" cy="439" r="22" fill="var(--bg)" stroke="var(--accent)" stroke-opacity=".6"/>
+    <path d="M437 447l16-16m-12 0h12v12" stroke="var(--accent)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="477" y="438" class="hda-caption">FUTURE</text>
+    <text x="477" y="454" class="hda-micro">04</text>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M207 246C241 236 274 247 300 263C327 244 360 239 393 246L387 353C352 346 326 353 300 371C274 354 247 346 213 353Z" fill="var(--bg)" stroke="var(--muted)" stroke-opacity=".45" stroke-width="1.2"/>
+    <path d="M219 235C252 230 279 242 300 258C322 242 350 230 382 235L378 342C348 339 321 350 300 365C278 350 251 339 222 342Z" fill="url(#hda-paper)" stroke="var(--ink)" stroke-width="1.4" stroke-opacity=".85"/>
+    <path d="M300 258v107" stroke="var(--accent)" stroke-width="1.4"/>
+    <path d="M232 253C252 253 270 259 286 269M232 265C251 265 270 271 286 281M233 277C252 277 270 283 286 293M233 289C252 289 271 295 286 305M234 301C252 301 270 307 286 317M234 313C251 313 269 319 280 326" stroke="var(--muted)" stroke-opacity=".65" stroke-width="1"/>
+    <path d="M315 271C329 262 345 256 369 253M315 283C329 274 344 269 368 266M315 295C328 286 345 281 368 279M315 307C330 297 344 293 366 292M315 319C328 310 343 306 365 304M315 331C327 323 341 319 353 318" stroke="var(--muted)" stroke-opacity=".65" stroke-width="1"/>
+    <path d="M325 228v-20l30-17 27 10M330 222l-1-30 31-21" stroke="var(--accent)" stroke-opacity=".55" stroke-width="1.05"/>
+    <circle cx="355" cy="191" r="3" fill="var(--bg)" stroke="var(--accent)" stroke-width="1.1"/>
+    <circle cx="382" cy="201" r="2.5" fill="var(--accent)" stroke="none" class="hda-breathe"/>
+    <circle cx="360" cy="171" r="2" fill="var(--accent)" stroke="none" class="hda-breathe-late"/>
+    <path d="M243 361l-11 20h-22M248 369l-9 27h-12" stroke="var(--accent)" stroke-opacity=".55" stroke-width="1.05"/>
+    <circle cx="210" cy="381" r="2.5" fill="var(--accent)" stroke="none" class="hda-breathe-late"/>
+    <circle cx="227" cy="396" r="2" fill="var(--accent)" stroke="none" class="hda-breathe"/>
+  </g>
+  <g fill="var(--accent)">
+    <circle cx="300" cy="400" r="2"/>
+    <circle cx="300" cy="409" r="1" opacity=".45"/>
+  </g>
+  <text x="300" y="452" text-anchor="middle" class="hda-micro" style="font-size:8px;letter-spacing:2px">THE HUMAN AT THE CENTRE</text>
+</svg>
+<div class="hero-art-note">The human–digital atlas<span>READ · CONNECT · QUESTION</span></div></div>
+  </div>
+  <div class="hero-bottom"><div class="hero-tags"><span>Literature</span><span>Culture</span><span>Technology</span><span>Memory</span></div><a class="scroll-cue" href="#course">SCROLL TO EXPLORE <svg class="icon sm"><use href="#i-down"/></svg></a></div>
+  <div class="intro-strip"><div class="strip-left"><svg class="icon"><use href="#i-book"/></svg><p><strong>Introduction to Digital Humanities</strong><br>CHRIST (Deemed to be University) · Department of English and Cultural Studies</p></div><a class="link-btn" href="#course">Inside the course <svg class="icon sm"><use href="#i-up-right"/></svg></a></div>
+ </section>
+ <section class="section wrap" id="course" aria-labelledby="course-heading">
+  <div class="section-head"><div><div class="kicker">01 / THE COURSE MAP</div><h2 id="course-heading">Four ways of<br><em>seeing the digital.</em></h2></div><p>From the English classroom to the future of the humanities. Explore the four units that shape this portfolio.</p></div>
+  <div class="course-grid"><div class="module-list" role="tablist" aria-label="Course units" aria-orientation="vertical" id="module-tabs"></div><div class="module-detail" id="module-detail" role="tabpanel" tabindex="0"></div></div>
+ </section>
+ <section class="section readings section-line" id="readings" aria-labelledby="reading-heading"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">02 / THE READING JOURNAL</div><h2 id="reading-heading">Read closely.<br><em>Think beyond the page.</em></h2></div><p>Assigned texts, annotated pages, classroom notes, and space for original responses. Every reading opens a new conversation.</p></div>
+  <div class="reading-toolbar"><div class="filters" id="reading-filters" aria-label="Filter readings by unit"><button class="filter" data-filter="all" aria-pressed="true">All readings</button><button class="filter" data-filter="1" aria-pressed="false">Unit 01</button><button class="filter" data-filter="2" aria-pressed="false">Unit 02</button><button class="filter" data-filter="3" aria-pressed="false">Unit 03</button><button class="filter" data-filter="4" aria-pressed="false">Unit 04</button></div><label class="search"><span class="sr-only">Search reading title or author</span><svg class="icon"><use href="#i-search"/></svg><input type="search" id="reading-search" placeholder="Find a reading…" autocomplete="off"></label></div>
+  <div class="reading-table" id="reading-list" aria-live="polite"></div>
+  <div class="readings-foot"><p id="reading-footnote">Reading list from the supplied course plan. Student annotations and responses will appear as they are added.</p><button class="link-btn" id="show-all-readings">All 9 readings <svg class="icon sm"><use href="#i-arrow"/></svg></button></div>
+  <div class="reading-components"><div class="component"><svg class="icon"><use href="#i-edit"/></svg> Physical annotations</div><div class="component"><svg class="icon"><use href="#i-chat"/></svg> Analytical responses</div><div class="component"><svg class="icon"><use href="#i-notes"/></svg> Scanned class notes</div><div class="component"><svg class="icon"><use href="#i-book"/></svg> Learning summaries</div></div>
+ </div></section>
+ <section class="section wrap" id="project" aria-labelledby="project-heading">
+  <div class="section-head"><div><div class="kicker">03 / THE FIELD PROJECT</div><h2 id="project-heading">The city is<br><em>a living text.</em></h2></div><p>A collaborative Digital Humanities project rooted in Bengaluru, developed from a proposal into a small digital archive.</p></div>
+  <div class="project-panel"><div class="project-art">
+   <span class="art-label">BENGALURU / A PLACE TO BEGIN</span>
+   <svg viewBox="0 0 600 480" role="img" aria-label="Illustrative city grid and a connected fieldwork route, not a geographic map" preserveAspectRatio="xMidYMid slice"><defs><pattern id="mapgrid" width="55" height="55" patternUnits="userSpaceOnUse" patternTransform="rotate(-23 300 240)"><path d="M55 0H0V55" fill="none" stroke="#8baf9918" stroke-width="1"/><rect x="8" y="8" width="39" height="39" rx="3" fill="#9ab99b05"/></pattern><linearGradient id="mapfade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1b2928" stop-opacity="0"/><stop offset="1" stop-color="#1b2928"/></linearGradient></defs><rect width="600" height="480" fill="url(#mapgrid)"/><g fill="none" stroke="#829b832d"><path d="M-40 300 185 180 350 240 640 40" stroke-width="17"/><path d="M-40 300 185 180 350 240 640 40" stroke="#1b2928" stroke-width="12"/><path d="M140-40 215 100 180 205 390 440 480 520" stroke-width="11"/><path d="M140-40 215 100 180 205 390 440 480 520" stroke="#1b2928" stroke-width="7"/><path d="M-20 90 140 90 350 305 580 330" stroke-width="9"/><path d="M-20 90 140 90 350 305 580 330" stroke="#1b2928" stroke-width="5"/></g><g fill="none" stroke="#a7c290" opacity=".35"><ellipse cx="290" cy="225" rx="160" ry="140" transform="rotate(-23 290 225)" stroke-dasharray="2 7"/><ellipse cx="290" cy="225" rx="112" ry="100" transform="rotate(-23 290 225)"/><path d="M290 58v13m0 308v13M110 225h13m335 0h13"/></g><path d="M184 263C190 201 245 197 294 217S371 223 402 161" fill="none" stroke="#d5f58a" stroke-width="1.5"/><path class="map-flow" d="M184 263C190 201 245 197 294 217S371 223 402 161" fill="none" stroke="#fffde9" stroke-width="3"/>
+   <g fill="#1b2928" stroke="#d5f58a"><circle cx="184" cy="263" r="7"/><circle cx="294" cy="217" r="7"/><circle cx="402" cy="161" r="7"/></g><g fill="#d5f58a"><circle cx="184" cy="263" r="2.5"/><circle cx="294" cy="217" r="2.5"/><circle cx="402" cy="161" r="2.5"/></g><g class="map-pulse" fill="none" stroke="#d5f58a" opacity=".3"><circle cx="184" cy="263" r="17"/><circle cx="294" cy="217" r="22"/><circle cx="402" cy="161" r="17"/></g><g fill="#b3c6ae" font-family="monospace" font-size="9" letter-spacing="2"><text x="145" y="300">OBSERVE</text><text x="263" y="256">LISTEN</text><text x="369" y="132">DOCUMENT</text></g><rect y="320" width="600" height="160" fill="url(#mapfade)"/></svg>
+   <div class="art-footer"><strong>Place.<br>People. Memory.</strong><span>ILLUSTRATIVE CITY GRID<br>NOT A FIELDWORK RECORD</span></div>
+  </div><div class="project-copy"><div><span class="pill green" id="project-status">Proposal workspace</span></div><h3 id="project-title">A Bengaluru story,<br>waiting to be explored.</h3><p id="project-description">Begin with a place, a question, and the people connected to it. Use this workspace to develop the project proposal and document the research process.</p><dl class="project-facts"><div><dt>Selected site</dt><dd id="project-site">To be confirmed</dd></div><div><dt>Group format</dt><dd>4 members · individual portfolio</dd></div><div><dt>Proposal due</dt><dd>25 November 2026</dd></div><div><dt>Final project due</dt><dd>18 February 2027</dd></div></dl><div class="project-buttons"><button class="btn primary small" data-action="project-view">Open project <svg class="icon sm"><use href="#i-up-right"/></svg></button><button class="btn small" data-action="project-edit">Add proposal <svg class="icon sm"><use href="#i-plus"/></svg></button></div></div></div>
+  <div class="research-stages"><article class="research-stage"><span>01</span><span class="stage-mark">CIA I</span><h4>Frame a question</h4><p>Choose a site, establish the rationale, identify DH concepts, and plan an ethical method of enquiry.</p></article><article class="research-stage"><span>02</span><span class="stage-mark">FIELDWORK</span><h4>Gather with care</h4><p>Document material, record context and attribution, and keep track of permissions and group contributions.</p></article><article class="research-stage"><span>03</span><span class="stage-mark">CIA III</span><h4>Build the archive</h4><p>Connect the collected records through analysis, thoughtful interpretation, and an accessible presentation.</p></article></div>
+ </section>
+ <section class="section archive section-line" id="archive" aria-labelledby="archive-heading"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">04 / THE DIGITAL ARCHIVE</div><h2 id="archive-heading">Small records.<br><em>Meaningful connections.</em></h2></div><p>Photographs, places, oral narratives, and field notes. A growing collection with context and credit attached to every record.</p></div>
+  <div class="archive-topline"><span class="archive-count" id="archive-count">00 RECORDS / READY TO BEGIN</span><button class="btn small" data-action="archive-add"><svg class="icon sm"><use href="#i-plus"/></svg> Add an archive record</button></div>
+  <div id="archive-container"></div>
+  <div class="archive-guidance"><svg class="icon"><use href="#i-info"/></svg><span>Each record includes a title, creator, date, location, source, permissions, and room for your own interpretation.</span></div>
+ </div></section>
+ <section class="section wrap" id="milestones" aria-labelledby="milestone-heading"><div class="timeline-layout"><div class="timeline-intro"><div class="kicker">05 / THE SEMESTER</div><h2 id="milestone-heading">A little progress.<br><em>Every week.</em></h2><p>Key portfolio deadlines from the 2026–27 course plan. Dates indicate the schedule, not completed work.</p><button class="link-btn" data-action="milestones">See the full schedule <svg class="icon sm"><use href="#i-up-right"/></svg></button><p class="timeline-note">Submission dates are transcribed from the supplied course plan. Confirm any later timetable changes with the course instructor.</p></div><div class="timeline-list" id="timeline-list"></div></div></section>
+ <section class="process" aria-label="Sources and process"><div class="wrap process-grid"><div class="process-item"><svg class="icon"><use href="#i-link"/></svg><div><h3>Sources & reading list</h3><p>Bibliographic details from the course plan.<br><button data-action="sources">Browse the references ↗</button></p></div></div><div class="process-item"><svg class="icon"><use href="#i-notes"/></svg><div><h3>Process & contributions</h3><p>Meeting notes, roles, and individual reflection.<br><button data-action="process">Open the process journal ↗</button></p></div></div><div class="process-item"><svg class="icon"><use href="#i-shield"/></svg><div><h3>Tools & acknowledgements</h3><p>Credit the people and tools behind the work.<br><button data-action="acknowledgements">View the declaration ↗</button></p></div></div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><div class="footer-top"><a href="#home" class="footer-name">DEEPAK<span>2633115 / DIGITAL HUMANITIES</span></a><div class="footer-actions"><button class="btn small" data-action="download"><svg class="icon sm"><use href="#i-download"/></svg> Download HTML</button><button class="motion-btn" id="motion-toggle" aria-pressed="true"><span class="switch" aria-hidden="true"></span> Animation on</button></div></div><div class="footer-bottom"><span>ENG101-2B · BA ENGLISH · SEMESTER II · 2026–27</span><span>A STUDENT PORTFOLIO · CHRIST (DEEMED TO BE UNIVERSITY)</span><a href="#home">BACK TO TOP ↑</a></div></div></footer>
+<dialog id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><div class="dialog-heading"><div class="eyebrow" id="dialog-kicker"></div><h2 id="dialog-title"></h2></div><button class="icon-btn" id="dialog-close" aria-label="Close dialog"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="dialog-body" id="dialog-body"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- Embedded baseline data for initial render and portable snapshotting -->
+<script id="portfolio-data" type="application/json">{"schemaVersion":1,"updatedAt":0,"readings":{},"project":{},"archive":[],"process":{"log":"","contribution":"","reflection":"","sources":"","acknowledgements":"Website design and interface were created with assistance from ChatGPT. Reading analyses, learning summaries, project findings, and personal reflections must be added by Deepak. This declaration should be reviewed before academic submission."}}</script>
+
+<!-- Optional environment script (if deployed with static config) -->
+<script src="./env.js" onerror="/* env.js is optional in local or self-contained mode */"></script>
+
+<!-- Modular Application Entry Point -->
+<script type="module" src="./src/app.js"></script>
+</body>
+</html>

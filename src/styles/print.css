@@ -1,0 +1,115 @@
+/* Print styles */
+@media print {
+  .topbar,
+  .hero-art,
+  .hero-cta,
+  .intro-strip,
+  .footer-actions,
+  .motion-btn,
+  .archive-topline .btn,
+  .search,
+  .filters,
+  .project-buttons,
+  .scroll-cue,
+  .toast,
+  dialog,
+  .link-btn {
+    display: none !important;
+  }
+
+  :root {
+    --bg: #fff;
+    --bg2: #fff;
+    --card: #fff;
+    --ink: #111;
+    --muted: #555;
+    --line: #bbb;
+    --accent: #355620;
+    --soft: #eff3e7;
+  }
+
+  body {
+    font-size: 11px;
+  }
+
+  .wrap {
+    padding: 0 20px;
+  }
+
+  .hero-grid,
+  .course-grid,
+  .project-panel,
+  .timeline-layout {
+    display: block;
+  }
+
+  .hero {
+    padding: 20px 0;
+  }
+
+  .hero-copy {
+    padding: 10px 0;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero-owner {
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 28px 0;
+  }
+
+  .section-head h2 {
+    font-size: 28px;
+  }
+
+  .module-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .module-detail {
+    margin-top: 15px;
+  }
+
+  .project-art {
+    display: none;
+  }
+
+  .reading-row {
+    break-inside: avoid;
+  }
+
+  .project-copy {
+    padding: 20px;
+  }
+
+  .reading-row:hover {
+    padding-left: 8px;
+  }
+
+  .section-head p {
+    max-width: 400px;
+  }
+
+  .hero-tags {
+    font-size: 8px;
+  }
+
+  .timeline-intro h2 {
+    font-size: 28px;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .reading-components {
+    margin-top: 20px;
+  }
+}
